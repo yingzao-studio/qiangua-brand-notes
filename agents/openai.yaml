@@ -1,0 +1,4 @@
+interface:
+  display_name: "千瓜品牌笔记统计"
+  short_description: "统一千瓜品牌和产品笔记统计口径，核验来源、处理歧义并汇总对比"
+  default_prompt: "用 $qiangua-brand-notes 查询这些品牌的千瓜笔记数量，统一时间与产品范围，附证据并标明数据缺口。"

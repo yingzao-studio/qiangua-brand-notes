@@ -52,4 +52,4 @@ python -m pip install -r requirements-dev.txt
 python scripts/validate.py
 ```
 
-GitHub Actions 使用相同校验。校验覆盖结构与元数据，不证明千瓜登录、权限或实时抓取已通过。真实查询验收需记录至少一个有来源的数量、一个明确的阻塞状态，以及日期与筛选证据；禁止用模拟结果冒充线上验证。
+本地包包含 GitHub Actions 配置。当前发布凭据不含 workflow 权限，远程自动校验尚未启用；可将 scripts/validate-workflow.yml 模板手动放入 .github/workflows/validate.yml。校验覆盖结构与元数据，不证明千瓜登录、权限或实时抓取已通过。真实查询验收需记录至少一个有来源的数量、一个明确的阻塞状态，以及日期与筛选证据；禁止用模拟结果冒充线上验证。
